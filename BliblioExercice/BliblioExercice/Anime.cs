@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace BliblioExercice
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public class Anime
     {
         public string Nom { get; set; }
@@ -20,7 +23,10 @@ namespace BliblioExercice
         {
             animes.Add(new Anime(nom));
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>liste des animes </returns>
         public List<Anime> ObtenirAnimes()
         {
             return animes;

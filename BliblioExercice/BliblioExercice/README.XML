@@ -4,5 +4,16 @@
         <name>BliblioExercice</name>
     </assembly>
     <members>
+        <member name="T:BliblioExercice.Anime">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:BliblioExercice.Anime.ObtenirAnimes">
+            <summary>
+            
+            </summary>
+            <returns>liste des animes </returns>
+        </member>
     </members>
 </doc>
